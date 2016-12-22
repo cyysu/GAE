@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/35/trunk/web
+END
+request.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/35/trunk/web/request.py
+END
+wsgi.py
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/35/trunk/web/wsgi.py
+END
+template.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/35/trunk/web/template.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/35/trunk/web/__init__.py
+END
+http.py
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/35/trunk/web/http.py
+END
+utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/35/trunk/web/utils.py
+END
+debugerror.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/35/trunk/web/debugerror.py
+END
+cheetah.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/35/trunk/web/cheetah.py
+END
+form.py
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/35/trunk/web/form.py
+END
+db.py
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/35/trunk/web/db.py
+END
+net.py
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/35/trunk/web/net.py
+END
+httpserver.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/35/trunk/web/httpserver.py
+END
+webapi.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/35/trunk/web/webapi.py
+END

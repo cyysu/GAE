@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>birdnest - a twitter api proxy</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="birdnest is a Twitter API proxy which filter out the unnecessary information off the Twitter API response." />
+	<style>
+	dt{
+	font-weight:bold;
+	}
+	</style>
+</head>
+<body>
+<h1>Birdnest</h1>
+<p>
+birdnest is a Twitter API proxy which filter out the unnecessary information off the Twitter response. This result better utilization of bandwidth for Twitter mobile client, primarily for <a http="http://sugree.com/project/jibjib">jibjib</a>.
+</p>
+
+<h2>What is birdnest?</h2>
+<p>
+Normally, Twitter does provide various methods to enable flexible access and interact with Twitter via its API. Many mobile clients are created in order to increase the tweet channel and help people tweet more frequent. However, Twitter API is not tailored for just mobile purpose. Return message of many methods become bloat and use too much bandwidth than it should be. For example, you may don't want to know anything except than name of twitter-er who just replied to you at 30 seconds ago.
+</p>
+<p>
+Size of the returned data directly effects the network cost, EDGE or GPRS. Specialized proxy that forward the request to the Twitter and throw away any unnecessary data before send it back to the client is required to decrease the data size and that become birdnest.
+</p>
+
+<h2>How to use birdnest?</h2>
+Using birdnest is easy. Just change your Twitter API endpoint to one of our endpoints, in easy word change "http://twitter.com/" prefix to one of below choices, and that's all. The API call will be forward to appropiate method on Twitter properly. And the response will be filter before hand it to you.
+
+Below are our available end points. Each end point reflects how to filter out the information. 
+
+<dl>
+	<dt>http://nest.onedd.net/api</dt><dd>No any filter. Just redirect the request</dd>
+<dt>http://nest.onedd.net/optimized</dt> <dd>Filter out most of content from any error requests. The success response still return full data while the unsuccessful one will return ony HTTP error code</dd>
+<dt>http://nest.onedd.net/image</dt> <dd>Filter out most data off the response except profile image.</dd>
+<dt>http://nest.onedd.net/text</dt><dd>Text only API. Throw every image url away. This filter return least size of data.</dd>
+</dl>
+
+
+
+<h2>Found a bug?</h2>
+Please report at <a href="http://code.google.com/p/birdnest/">Google Code Project Homepage.</a>
+
+<hr />
+Last updated : 18/5/2551
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-239852-6");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

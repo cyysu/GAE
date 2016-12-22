@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/35/trunk/web/wsgiserver
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/35/trunk/web/wsgiserver/__init__.py
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/35/trunk/web/wsgiserver/LICENSE.txt
+END

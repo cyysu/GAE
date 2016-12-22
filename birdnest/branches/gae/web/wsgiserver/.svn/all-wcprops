@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/73/branches/gae/web/wsgiserver
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/72/branches/gae/web/wsgiserver/LICENSE.txt
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/73/branches/gae/web/wsgiserver/__init__.py
+END

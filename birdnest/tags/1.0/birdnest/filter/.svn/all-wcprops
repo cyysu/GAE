@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/63/tags/1.0/birdnest/filter
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/63/tags/1.0/birdnest/filter/__init__.py
+END
+XML.py
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/63/tags/1.0/birdnest/filter/XML.py
+END
+json.py
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/63/tags/1.0/birdnest/filter/json.py
+END

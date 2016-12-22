@@ -1,0 +1,31 @@
+#summary Deploying Birdnest  with Phusion Passenger
+#labels Featured,Phase-Deploy
+
+= Introduction =
+
+Currently deployment of http://nest.onedd.net is done using Phusion Passenger. Although Passenger aims for easier deploying rails application, it also support WSGI as the proof-of-concept. Therefore, we can use it for deploying WSGI apps also, including birdnest.
+
+= Steps to deploy =
+
+1. Install Apache and Phusion Passenger.
+
+2. Setup the Application path. eg. /var/nest
+
+3. Check out Birdnest from GAE branch and put it to the Application path from (2). eg. /var/nest/birdnest
+
+4. Create a name with `passenger_wsgi.py` as the bootstrap script. And put following code in the file
+
+{{{
+import os, sys
+path = os.path.abspath(os.path.join(os.path.dirname(__file__), "birdnest"))
+sys.path.insert(0, path)
+import code
+code.init_logger()
+app = code.app
+application = code.application
+}}}
+
+5. Test your application by navigate to http://nest.onedd.net/text/help/test.json
+
+= Conclusion =
+Phusion Passenger helps us deploy birdnest easily. We don't need any other requirements like in cgi mode. Anyway, I'd recommend anyone to use mod_wsgi in production because Passenger WSGI support is just proof-of-concept so no guarantee in performance and reliablity in WSGI.

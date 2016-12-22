@@ -1,0 +1,13 @@
+you can change "main.py" to "main-private.py" in file app.yaml for private using.
+
+1,you MUST set USER_PASSWORD in main-private.py for your gtap and DO NOT share it with anyone.
+
+2,find these variables of your application from https://dev.twitter.com/apps/ and modify them in main-private.py
+    CONSUMER_KEY        = Consumer key
+    CONSUMER_SECRET     = Consumer secret
+    ACCESS_TOKEN        = Access token
+    ACCESS_TOKEN_SECRET = Access token secret
+
+  *if you can not find "Access token" and "Access token secret", click the "Create my access token" button.
+
+3,now you can use gtap via USER_PASSWORD(and any username) without any oauth-authorization

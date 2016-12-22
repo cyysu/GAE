@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/95/branches/stable
+END
+index.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/62/branches/stable/index.yaml
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/62/branches/stable/index.html
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/62/branches/stable/.htaccess
+END
+code.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/95/branches/stable/code.py
+END
+app.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/62/branches/stable/app.yaml
+END

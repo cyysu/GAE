@@ -1,0 +1,13 @@
+# Various rewrite rules.
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  # Rewrite URLs of the form 'index.php?q=x'.
+  RewriteCond %{REQUEST_URI} !^/cgi-bin/
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(api/.*) /cgi-bin/code.py/$1 [L,QSA]
+  RewriteRule ^(optimized/.*) /cgi-bin/code.py/$1 [L,QSA]
+  RewriteRule ^(image/.*) /cgi-bin/code.py/$1 [L,QSA]
+  RewriteRule ^(text/.*) /cgi-bin/code.py/$1 [L,QSA]
+  #RewriteRule ^/cgi-bin/(.*) /cgi-bin/sbox/$1 [PT]
+</IfModule>

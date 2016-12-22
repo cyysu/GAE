@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/svn/!svn/ver/63/tags/1.0
+END
+index.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/63/tags/1.0/index.yaml
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/63/tags/1.0/index.html
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/63/tags/1.0/.htaccess
+END
+code.py
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/63/tags/1.0/code.py
+END
+app.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/63/tags/1.0/app.yaml
+END
